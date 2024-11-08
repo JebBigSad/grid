@@ -17,6 +17,7 @@ body {
 
 .conteiner {
     margin-left: 16px;
+    margin-bottom: 16px;
 }
 
 .title {
@@ -85,7 +86,7 @@ body {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-    padding: 15px 13px;
+    padding: 18px 13px;
     font-weight: 700;
     font-size: 18px;
     color: #000;
@@ -122,7 +123,7 @@ body {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-    padding: 15px 13px;
+    padding: 18px 13px;
     font-weight: 700;
     font-size: 18px;
     color: #000;
@@ -132,7 +133,45 @@ body {
     background: #fff;
 }
 
+.body-2{
+    margin-left: 50px;
+    border: 4px solid #fff;
+    border-radius: 40px;
+    width: 375px;
+    height: 812px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.02), 0 7px 5px 0 rgba(0, 0, 0, 0.03), 0 13px 10px 0 rgba(0, 0, 0, 0.04), 0 22px 18px 0 rgba(0, 0, 0, 0.04), 0 42px 33px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07);
+    background: #f1f4f9;
+}
 
+.conteiner-2 {
+    margin-left: 16px;
+}
+
+.title-2 {
+    margin-bottom: 11px;
+}
+
+.fix {
+    object-fit: cover;
+    border-radius: 8px;
+    width: 109px;
+    height: 72px;
+    box-shadow: 0 5px 10px 0 rgba(57, 120, 122, 0.47);
+}
+
+.imger {
+    display: flex;
+}
+
+.img {
+    flex-direction: column;
+}
+
+.img > span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #979ea6;
+}
 
 
     
