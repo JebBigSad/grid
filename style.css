@@ -69,7 +69,6 @@ body {
 
 .card {
     width: 343px;
-    height: 225px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
     background: #fff;
     display: grid;
@@ -106,7 +105,6 @@ body {
 
 .card-2 {
     width: 343px;
-    height: 225px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
     background: #fff;
     display: grid;
@@ -134,11 +132,12 @@ body {
 }
 
 .body-2{
-    margin-left: 50px;
+    position: relative;
+    top: 200px;
     border: 4px solid #fff;
     border-radius: 40px;
     width: 375px;
-    height: 812px;
+    height: 912px;
     box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.02), 0 7px 5px 0 rgba(0, 0, 0, 0.03), 0 13px 10px 0 rgba(0, 0, 0, 0.04), 0 22px 18px 0 rgba(0, 0, 0, 0.04), 0 42px 33px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07);
     background: #f1f4f9;
 }
@@ -151,6 +150,8 @@ body {
     margin-bottom: 11px;
 }
 
+
+
 .fix {
     object-fit: cover;
     border-radius: 8px;
@@ -160,10 +161,13 @@ body {
 }
 
 .imger {
+    gap: 8px;
     display: flex;
 }
 
 .img {
+    width: 109px;
+    height: 110px;
     flex-direction: column;
 }
 
@@ -173,5 +177,63 @@ body {
     color: #979ea6;
 }
 
+.gelery-3 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.card-3 {
+    width: 343px;
+    height: 210px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 18px;
+    column-gap: 18px;
+}
+
+.card-3 > img:first-of-type {
+    grid-column: 1 / 3;
+}
+
+.card-3 > .par-3 {
+    grid-column: 2;
+    grid-row: 2 / 4;
+}
+
+.par-1 {
+    object-fit: cover;
+    border-radius: 16px;
+    width: 343px;
+    height: 210px;
+    box-shadow: 0 10px 15px 0 rgba(49, 87, 91, 0.38);
+}
+
+.par-2 {
+    object-fit: cover;
+    border-radius: 12px;
+    width: 162px;
+    height: 162px;
+    box-shadow: 0 10px 15px 0 rgba(195, 185, 175, 0.63);
+}
+
+.par-3 {
+    object-fit: cover;
+    box-shadow: 0 10px 15px 0 rgba(106, 135, 161, 0.55);
+    border-radius: 12px;
+    width: 162px;
+    height: 352px;
+}
+
+.par-4 {
+    object-fit: cover;
+    box-shadow: 0 10px 15px 0 rgba(49, 87, 91, 0.38);
+    border-radius: 12px;
+    width: 162px;
+    height: 162px;
+
+}
     
